@@ -1,0 +1,19 @@
+MATRIZPLAY - Cloudflare Workers (.workers.dev) + MongoDB Atlas
+
+Arquivos: public/index.html (painel) | public/jogo.html (jogo, aberto pelo QR)
+          public/config.js | src/index.js (API) | wrangler.jsonc | package.json
+
+SEGREDOS (nunca coloque em arquivo do projeto):
+  No painel da Cloudflare: Worker "matrizplay" > Settings > Variables and Secrets > Add
+    MONGODB_URI (tipo Secret) = mongodb+srv://USUARIO:SENHA@cluster0.uiopijb.mongodb.net/?retryWrites=true&w=majority
+    ADMIN_KEY   (tipo Secret) = uma senha que voce inventar (botao "Zerar ranking")
+
+PLANO B, se a conexao "mongodb+srv" falhar no Workers, use no MONGODB_URI a forma padrao:
+  mongodb://USUARIO:SENHA@ac-murdawl-shard-00-00.uiopijb.mongodb.net:27017,ac-murdawl-shard-00-01.uiopijb.mongodb.net:27017,ac-murdawl-shard-00-02.uiopijb.mongodb.net:27017/?ssl=true&authSource=admin&replicaSet=atlas-jgfmju-shard-0
+
+ALTERNATIVA SEM GITHUB (precisa de Node.js instalado), na pasta do projeto:
+  npm install
+  npx wrangler login
+  npx wrangler deploy
+  npx wrangler secret put MONGODB_URI
+  npx wrangler secret put ADMIN_KEY
