@@ -1,5 +1,7 @@
 # 🎮 MatrizPlay
 
+**🔴 Ao vivo:** [Abrir o painel](https://matrizplay.silvageisedell.workers.dev) · **🎮 Jogo:** [Abrir o jogo](https://matrizplay.silvageisedell.workers.dev/jogo.html)
+
 Jogo de desafios de **matrizes** para a sala de aula, com painel ao vivo para o telão e ranking em tempo real.
 
 Os alunos escaneiam um QR Code, jogam pelo celular e o painel mostra quem está na frente. No fim da rodada, o painel anuncia o campeão.
