@@ -1,5 +1,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/51ccd01f-f095-4f47-b622-b36b2022a127" />
-# 🎮 MatrizPlay
+
+
+                                         # 🎮 MatrizPlay
 
 **🔴 Ao vivo:** [Abrir o painel](https://matrizplay.silvageisedell.workers.dev) · **🎮 Jogo:** [Abrir o jogo](https://matrizplay.silvageisedell.workers.dev/jogo.html)
 
