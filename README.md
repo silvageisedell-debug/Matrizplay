@@ -54,4 +54,4 @@ package.json
 | `MONGODB_URI` | Endereço de conexão do MongoDB Atlas |
 | `ADMIN_KEY` | Senha do botão "Zerar ranking" |
 
-4. Abra
+Fim.
